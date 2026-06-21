@@ -1,0 +1,35 @@
+# Centralized configuration for the LLM API Integration project
+# Use relative paths to make the project portable.
+
+project:
+  name: "LLM API Integration - Text Intelligence Pipeline"
+  version: "1.0.0"
+  author: "SAID"
+
+paths:
+  repo_root: "./"
+  notebooks_dir: "./notebooks"
+  data_dir: "./data"
+  outputs_dir: "./outputs"
+  config_dir: "./config"
+  scripts_dir: "./scripts"
+
+api:
+  provider: "anthropic"
+  model: "claude-sonnet-4-6"
+  max_tokens: 512
+  temperature: 0.1
+  batch_size: 5
+  rate_limit_delay: 0.5
+
+visualization:
+  theme: "dark"
+  bg_color: "#0D1117"
+  figsize: [14, 8]
+  dpi: 150
+
+output:
+  notebook: "./outputs/llm_api_integration.ipynb"
+  results_json: "./outputs/api_results.json"
+  features_csv: "./outputs/llm_features.csv"
+  plots_dir: "./outputs/plots"
