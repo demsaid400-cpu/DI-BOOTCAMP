@@ -1,0 +1,7 @@
+# Ignore common outputs and sensitive files
+outputs/
+.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
