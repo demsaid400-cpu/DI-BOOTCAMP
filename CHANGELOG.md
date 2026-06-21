@@ -1,0 +1,1 @@
+# CHANGELOG\n\n- 2026-06-21: Added a cleaned public notebook placeholder and docs redirect on branch `fix/rename-notebook` to make the notebook easier to access.\n
